@@ -48,6 +48,7 @@ private:
     const DetectorGeometry & _detectorGeometry;
 
     void recoHits(const StripSet &,HitSet &) const;
+    void addHit( HitSet & hitSet, int layer, int firstStrip, std::vector<int>& adcs) const ;
 
 
 
